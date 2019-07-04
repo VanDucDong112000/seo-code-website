@@ -1,0 +1,43 @@
+body{
+    background: chartreuse;
+}
+
+.container {
+    background: red;
+}
+.navbar-default .navbar-nav> li> a {
+    font-family: 'Times New Roman', Times, serif;
+      font-size: 15px;
+      color: red;
+      
+}
+.navbar-default .navbar-nav> li> a:focus, .container-fluid .navbar-nav> li> a:hover{
+    color: gold;
+    float: left;
+
+}
+.navbar-nav>li>a {
+  width: 110px;
+  padding-top: 20px;
+
+}
+.navbar-default{
+    border: none;
+  
+}
+
+.customDiv {
+    margin-bottom: 10px;
+    min-height: 150px;
+    background-color: azure;
+    text-align: center;
+    font-size: 15px;
+}
+.btn {
+    border-radius: 0px;
+}
+.baner{
+    background: red;
+    width: 100%;
+    height: 50px;
+}

@@ -1,0 +1,586 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background : #ffffff;
+    margin: 0;
+    padding: 0;
+
+}
+/*.container {
+    max-width: 1140px;
+    display: block;
+    margin: 0 auto
+}
+.row {
+    display: flex;
+    align-items: center;
+
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/*
+.container .row img {
+    float: left;
+    width: 50px;
+    height: 50px;
+
+}*/
+/*html, body {
+    font-family: sans-serif;
+}
+header {
+      background: #46badf;
+      padding: 15px 0;
+      position: relative;
+}
+.logo {
+    display: block;
+    max-width: 180px;
+}
+.logo img {
+    width: 100%;
+}
+.header #home-nav  {
+  display: flex;
+  align-items: center; 
+}
+#main-menu {
+ 
+    align-items: center;
+    inset-block: none;
+    color: #555;
+
+}
+#main-menu li {
+    list-style: none;
+    float: left;
+}
+#main-menu li a{
+    color: #ffffff;
+    padding: 10px 20px;
+    list-style: none;
+    float: left;
+    position: relative;
+    z-index: 100;
+
+}
+#home-nav #main-menu li a {
+    float: left;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#home-nav #main-menu li a:hover {
+    color: red;
+}
+
+
+
+.search-box {
+    margin-left: auto;
+}
+.search-box input{
+   height: 25px;
+   border: none;
+   outline: 0;
+}
+.search-box .sb-sbm {
+    width: 45px;
+    color: transparent;
+    background: transparent url(..image) no-repeat center;
+    background-size: contain;
+}
+.search-box .sb-text {
+    border-radius: 20px;
+    padding: 0 10px;
+    line-height: 25px;
+    width: 200px;
+}
+.menu-trigger {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin-left:  20px;
+
+}
+.menu-trigger span {
+    display: block;
+    background: #ff9800;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    border-radius: 10px;
+}
+.menu-trigger .span-1 {
+    top: 0;
+}
+.menu-trigger .span-2{
+    top: 50%;
+    transform:translateY(-50%) ;
+
+}
+.menu-trigger .span-3 {
+    bottom: 0;
+}*/
+.content {
+    width: 100%;
+    height:110px;
+    background-color:#000F1A;
+    text-emphasis: none;
+    background-origin:none;
+
+}
+
+.content_left  {
+    float: left;
+   margin-left: 50px;
+   margin-top: 10px;
+   
+}
+.content .content_right{ 
+    display: block;
+    line-height: 40px;
+    
+}
+.content .content_right a:hover {
+    background: #008CFF;
+   
+
+}
+.content .content_right ul li {
+    list-style: none;
+    float: left;
+    position: relative;
+    z-index: 100;
+    width: 180px;
+    text-align: center;
+    
+}
+.content_right ul li a {
+    text-decoration: none;
+    display: block;
+    margin: 40px;
+    color: aliceblue;
+    width: auto;
+    
+ 
+}
+
+.content_right ul .submenu{
+    position: absolute;
+    width: 200px;
+    background: #f0f0f0;
+    display: none;
+  
+}
+
+.content_right ul li:hover .submenu{
+    display: block;
+}
+
+.content_right ul li li{
+    width: 100%;
+}
+
+.content_right ul li ul a{
+    color:black;
+    margin: 0;
+    padding: 13px 15px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.content_right ul li ul a:hover{
+    background: #00ffbf;
+    cursor: pointer;
+}
+
+
+
+
+/*form popup*/
+#form {
+    /* background: #ffffff; */
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    z-index: 1000;
+    display: none;
+}
+
+#form form {
+    width: 300px;
+    background: #ffffff;
+    padding: 10px;
+}
+
+#form input {
+    display: block;
+    padding: 10px;
+    margin: auto auto 10px auto;
+    border-radius: 5px;
+    border: 1px solid #c0c0c0;
+}
+
+#content_form{
+    position: relative;
+    max-width: 300px;
+    margin: auto;
+}
+
+#close_form{
+    right: 0;
+    position: absolute;
+}
+
+
+#mobi{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #mobi{
+        display: block;
+    }
+}
+
+
+
+
+
+/* anh backgound*/
+ #ngon-ngu {
+    background: url('../template-1/image/anh9.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 90px;
+   
+}
+#ngon-ngu h4 {
+    color: #008CFF;
+    font-size: 18px;
+
+    text-align: center;
+
+}
+.sub-ovuong p {
+    text-align: center;
+    font-size: 17px;
+    color: red;
+}
+#ngon-ngu .backgroud {
+    background: #444143;
+    opacity: 0.7;
+    width: 100%;
+    height: 500px;
+}
+#ngon-ngu .backgroud .container h2 {
+    font-family: Myriad Pro;
+    color: #ffffff;
+    text-align: center;
+    margin: 50px;
+}
+#ngon-ngu .backgroud .container p {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/*
+Phan row 
+
+*/
+.btn-ls {
+    border: 2px solid #c0c0c0;
+    border-radius: 7px;
+    margin: 5px;
+    padding:5px;
+    text-align: center;
+    text-decoration: none;
+}
+.btn-ls:hover {
+    width: 100%;
+    background-color: rgb(216, 51, 51);
+    transition-property: background;
+    transition-duration: 1s;
+}
+
+ img {
+     max-width: 100%;
+     height :auto;
+ }
+.container .item .btn-ls {
+     color:#555;
+     border-color: #555;
+     text-decoration: none;
+     text-align: center;
+
+
+ }
+ .container .item .btn-ls::after{
+    background: #555;
+
+    }
+
+    .container .item h4 {
+        color: #555;
+    font-size: 18px;
+    text-align: center;
+    }   
+    .container .item p{
+        text-align: center;
+        
+    }
+
+    .container .item:hover {
+    
+        box-shadow: 0 10px 15px #ccc;
+        transform: translateY(-5px);
+      
+        }
+
+ .container .item {
+     transition: 0.4;
+     background: #ffffff;
+     width: 90%;
+     height: 470px;
+ 
+ }
+
+ .container .item figcaption{
+  padding: 0 40px 80px;
+ }
+
+ 
+.container .row  {
+    margin: 100px auto auto auto;
+
+   
+
+
+}
+
+
+
+
+
+.container .item .btn-ls {
+    display: inline;
+    text-align: center;
+}
+.sub-container {
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+}
+.o-vuong .sub-ovuong {
+  width: 150px;
+  padding: 20px 0;
+  margin: 50px;
+  border: 1px solid #ccc;
+}
+.o-vuong .sub-ovuong h4 {
+    font-weight: 600;
+    color: #555;
+    text-align: center
+
+}
+.o-vuong .sub-ovuong p {
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #7777;
+    text-align: center;
+}
+
+
+
+#tabs li{
+    display: inline;
+    padding: 12px 16px;
+    border: 1px solid #c0c0c0;
+}
+
+#content_tabs .tab_sh{
+    display: none;
+}
+
+#content_tabs .tab_1_sh{
+    display: block;
+}
+
+.footer {
+    padding: 0;
+    margin: 0;
+    background:#E6E6E6;
+    max-width: 100%;
+    height: auto;
+ 
+}
+.footer .container h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 29px;
+    text-align: center;
+    color: #5b5757;
+}
+.col-lg-3  {
+    border-left: 2px solid #555; 
+   
+}
+.sub-footer {
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: left;
+
+}
+#right1 {
+    border-right: 2px solid #555;
+}
+#style-list {
+    border-top-width: 2px solid #000F1A  45px;
+
+}
+#style-list .container {
+    width: 100%;
+    max-width: 119.5rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+    height: auto;
+}
+#style-list .container .thietke h2 {
+    text-align: center;
+    margin-top: 60px;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+#style-list .container .thietke p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 17px;
+}
+#style-list .container .thietke h3 {
+    text-align: center;
+    margin-top: 25px;
+  
+}
+
+
+
+.social-button{
+    display: inline-grid;
+      position: fixed;
+      bottom: 15px;
+      left: 45px;
+      min-width: 45px;
+      text-align: center;
+      z-index: 99999;
+  }
+  .social-button-content{
+    display: inline-grid;   
+  }
+  .social-button a {padding:8px 0;cursor: pointer;position: relative;}
+  .social-button i{
+    width: 40px;
+      height: 40px;
+      background: #43a1f3;
+      color: #fff;
+      border-radius: 100%;
+      font-size: 20px;
+      text-align: center;
+      line-height: 1.9;
+      position: relative;
+      z-index: 999;
+  }
+  .social-button span{
+    display: none;
+  }
+  .alo-circle {
+      animation-iteration-count: infinite;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-name: zoomIn;
+      width: 50px;
+      height: 50px;
+      top: 3px;
+      right: -3px;
+      position: absolute;
+      background-color: transparent;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      border: 2px solid rgba(30, 30, 30, 0.4);
+      opacity: .1;
+      border-color: #0089B9;
+      opacity: .5;
+  }
+  .alo-circle-fill {
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: pulse;
+      width: 60px;
+      height: 60px;
+      top: -2px;
+      right: -8px;
+      position: absolute;
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      border: 2px solid transparent;
+      background-color: rgba(0, 175, 242, 0.5);
+      opacity: .75;
+  }
+  .call-icon:hover > span, .mes:hover > span, .sms:hover > span, .zalo:hover > span{display: block}
+  .social-button a span {
+      border-radius: 2px;
+      text-align: center;
+      background: rgb(103, 182, 52);
+      padding: 9px;
+      display: none;
+      width: 180px;
+      margin-left: 10px;
+      position: absolute;
+      color: #ffffff;
+      z-index: 999;
+      top: 9px;
+      left: 40px;
+      transition: all 0.2s ease-in-out 0s;
+      -moz-animation: headerAnimation 0.7s 1;
+      -webkit-animation: headerAnimation 0.7s 1;
+      -o-animation: headerAnimation 0.7s 1;
+      animation: headerAnimation 0.7s 1;
+  }
+  @-webkit-keyframes "Dong" {
+      0% { margin-top: -70px; }
+      100% { margin-top: 0; }
+  }
+  @keyframes "Dong" {
+      0% { margin-top: -70px; }
+      100% { margin-top: 0; }
+  }
+  .social-button a span:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent rgb(103, 182, 52) transparent transparent;
+    position: absolute;
+    left: -10px;
+    top: 10px;
+  }
